@@ -11,15 +11,15 @@
 			"binding": "DB",
 			"database_name": "my-emdash-site","database_id": "86b5e628-cfd4-4563-aee2-baa6511a95db",
 			// Run `wrangler d1 create my-emdash-site` and paste the ID here
-		},
+		}
 	],
 	"r2_buckets": [
 		{
 			"binding": "MEDIA",
 			"bucket_name": "my-emdash-media","preview_bucket_name": "my-emdash-media",
-		},
+		}
 	],
 	"observability": {
-		"enabled": true,
-	},
+		"enabled": true
+	}
 }
